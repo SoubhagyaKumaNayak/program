@@ -3,15 +3,15 @@
 int main()
 {
 int m,s;
-cout<<"\n\n\n\t   A COUNTDOWN TIMER \n";
-cout<<enter time in MINUTES here \t = \t";
+cout<<"\n\t   A COUNTDOWN TIMER \n";
+cout<<MINUTES \t = \t";
 cin>>m;
-cout<<enter time in SECONDS here \t = \t";
+cout<< SECONDS \t = \t";
 cin>>s;
-cout<<"\n\n\n\n\t press any key to start...!!!";
+cout<<"\n\t press any key to start...!!!";
 
-cout<<"\n\n\n\t\t\t     A COUNTDOWN TIMER \n";
-cout<<"\n\n\n\t\t TIME REMAINIG \n\n";
+cout<<"\n\t     A COUNTDOWN TIMER \n";
+cout<<"\n\t TIME REMAINIG \n\n";
 cout<<"\t mins: \t\t seconds: ";
 for(int min=m;min>0;min--)
 {
