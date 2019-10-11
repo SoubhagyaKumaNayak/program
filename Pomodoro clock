@@ -1,23 +1,25 @@
-#include<iostream.h>
+#include<iostream>
 
 int main()
+	
 {
-int m,s;
+
+int m,s,min;
 cout<<"\n\t   A COUNTDOWN TIMER \n";
-cout<<MINUTES \t = \t";
+cout<<"MINUTES \t = \t";
 cin>>m;
-cout<< SECONDS \t = \t";
+cout<< "SECONDS \t = \t";
 cin>>s;
 cout<<"\n\t press any key to start...!!!";
 
 cout<<"\n\t     A COUNTDOWN TIMER \n";
 cout<<"\n\t TIME REMAINIG \n\n";
 cout<<"\t mins: \t\t seconds: ";
-for(int min=m;min>0;min--)
+for(min=m;min>0;min--)
 {
-for(int sec=59;sec>=;sec--)
-{
-sleep(1);
+for(int sec=59;sec>=0;sec--)
+{ 
+	sleep(1);
 cout<<"\r"<<min<<"\t"<<sec;
 }
 }
@@ -28,3 +30,4 @@ cout<<"\r"<<min<<"\t"<<rem;
 cout<<"\n\n  ENDED ";
 return 0;
 }
+
